@@ -15,6 +15,7 @@ public class ClientRMI {
 			System.out.println(cp.getSolde());
 			System.out.println(cp.getDateCreation());
 			System.out.println(cp.getClient().getNomClient());
+			System.out.println("Hello Commit");
 		} catch (Exception e) {
 			// TODO: handle exception
 		}
